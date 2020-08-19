@@ -4,6 +4,6 @@
 
 ### Exercicios
 
-1. [ ] 
-2. [ ] 
-3. [ ] 
+- [X] Teste
+- [ ] Teste 2
+- [X] Teste 3
