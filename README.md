@@ -1,6 +1,7 @@
 # Estrutura Sequencial AED C#
 
 - https://wiki.python.org.br/EstruturaSequencial
+'''
 Faça um Programa que mostre a mensagem "Alo mundo" na tela.
 
 Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].
@@ -53,3 +54,4 @@ Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em
     misturar latas e galões, de forma que o desperdício de tinta seja menor. Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias. 
 
 Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos). 
+'''
