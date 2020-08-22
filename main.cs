@@ -4,9 +4,7 @@ class MainClass {
 
   // Main para Rodar as Funções dos Exercicios
   public static void Main (string[] args) {
-    
-    Ex04();
-    
+    Ex07();
   }
 
   // Função do Exercicio 01
@@ -51,8 +49,41 @@ class MainClass {
 
     Console.WriteLine( "A medias das notas e: {0}", media );
 
+  }
+
+  // Função do Exercicio 05
+  public static void Ex05(  ){
+    Console.Write("Informe os Metros: ");
+    float metro = float.Parse( Console.ReadLine() );
+
+    float centi = metro * 100;
+
+    Console.WriteLine( "Conversão para centimetros: {0}", centi );
+  }
+
+  // Função do Exercicio 06
+  public static void Ex06(  ){
+
+    Console.Write("Informe o raio: ");
+    double raio = double.Parse( Console.ReadLine() );
+
+    double area  = Math.PI * Math.Pow( raio, 2 ) ;
+
+    Console.WriteLine( "Area do Circulo: {0}", Math.Round( area, 2 ) );
 
   }
 
+  // Função do Exercicio 07
+  public static void Ex07(  ){
+    Console.Write("Informe o lado do quadrado: ");
+    float lado = float.Parse( Console.ReadLine() );
+
+    double area = Math.Pow( lado, 2 );
+    double areaDobro = area * 2;
+
+    Console.WriteLine("Dobro da Area: {0}", areaDobro);
+
+
+  }
 
 }
